@@ -13,6 +13,11 @@ public class TestThread1 extends Thread{
     public void run() {
         // run方法线程体
         for (int i = 0; i < 20; i++) {
+            try {
+                Thread.sleep(50);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             System.out.println("子线程");
 
         }
