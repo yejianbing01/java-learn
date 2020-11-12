@@ -3,9 +3,9 @@ package com.idbi.thread;
 /**
  * 多线程
  * 三种创建方式：
- * 1. 继承Thread类（重点）
- * 2. 实现Runnable接口（重点）
- * 3. 实现Callable接口（了解）
+ * 1. 继承Thread类
+ * 2. 实现Runnable接口
+ * 3. 实现Callable接口
  */
 public class TestThread1 extends Thread{
 
