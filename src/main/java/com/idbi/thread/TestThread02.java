@@ -1,6 +1,6 @@
 package com.idbi.thread;
 
-import org.apache.commons.io.FileUtils;
+//import org.apache.commons.io.FileUtils;
 
 import java.io.File;
 import java.io.IOException;
@@ -47,6 +47,6 @@ public class TestThread02 extends Thread {
  */
 class WebDownloader{
     public void download(String url, String name) throws IOException {
-        FileUtils.copyURLToFile(new URL(url), new File(name));
+//        FileUtils.copyURLToFile(new URL(url), new File(name));
     }
 }
