@@ -3,7 +3,7 @@ package com.idbi.thread;
 /**
  * 观察线程状态
  */
-public class TestState {
+public class TestState07 {
     public static void main(String[] args) throws InterruptedException {
         Thread thread = new Thread(()->{
             for (int i = 0; i < 5; i++) {
