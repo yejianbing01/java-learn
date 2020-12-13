@@ -7,8 +7,7 @@ public class TestSleep {
 
     public static void tenDown() throws InterruptedException{
         int num = 10;
-        while (true){
-            if(num <= 0) break;
+        while (num > 0) {
             Thread.sleep(1000);
             System.out.println(num);
             num--;
